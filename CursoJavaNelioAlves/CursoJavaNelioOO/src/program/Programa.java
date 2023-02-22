@@ -11,11 +11,9 @@ public class Programa {
         Scanner input = new Scanner(System.in);
 
         int numeroTabuada = input.nextInt();
-        int contador = 0;
 
-        while (contador <= 10) {
+        for (int contador = 0; contador <= 10; contador ++) {
             System.out.printf("%d x %d = %d\n", numeroTabuada, contador, numeroTabuada * contador);
-            contador ++;
         }
     }
 }
