@@ -10,10 +10,7 @@ public class Programa {
         Locale.setDefault(Locale.US);
         Scanner input = new Scanner(System.in);
 
-        int numeroTabuada = input.nextInt();
-
-        for (int contador = 0; contador <= 10; contador ++) {
-            System.out.printf("%d x %d = %d\n", numeroTabuada, contador, numeroTabuada * contador);
-        }
+        System.out.println("Enter radius: ");
+        double radius = input.nextDouble();
     }
 }
